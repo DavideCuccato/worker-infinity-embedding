@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04 AS base
+FROM nvidia/cuda:12.8.1-cudnn-runtime-ubuntu22.04 AS base
 
 ENV HF_HOME=/runpod-volume
 
